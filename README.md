@@ -65,9 +65,6 @@ Done! Now you can start playing with the app.
 ## Add a new URL fetch job
 
 Example POST request:
-```
-curl -H "Content-Type: application/json" -X POST -d '{"url":"<url>"}' http://localhost:5000/api/new
-```
 
 ```
 curl -H "Content-Type: application/json" -X POST -d '{"url":"https://mitchellhuang.net/test.txt"}' http://localhost:5000/api/new
@@ -85,9 +82,6 @@ Example reponse:
 ## View the status of a job by job_id
 
 Example GET request:
-```
-curl http://localhost:5000/api/status/<job_id>
-```
 
 ```
 curl http://localhost:5000/api/status/60510cc9-f482-4e00-bc88-6985f3dac514
@@ -103,11 +97,6 @@ Example response:
 ```
 
 ## View the result of a job by id
-
-Example GET request:
-```
-curl http://localhost:5000/api/view/<id>
-```
 
 ```
 curl http://localhost:5000/api/view/1
