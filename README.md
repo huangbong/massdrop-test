@@ -55,13 +55,11 @@ Start the app:
 python app.py
 ```
 
-If everything works out you should see the Flask respond:
+If everything works out you should see Flask respond:
 
 ```
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
-
-Done! Now you can start playing with the app.
 
 ## Add a new URL fetch job
 
