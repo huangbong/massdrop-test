@@ -67,7 +67,10 @@ Done! Now you can start playing with the app.
 Example POST request:
 
 ```
-curl -H "Content-Type: application/json" -X POST -d '{"url":"https://mitchellhuang.net/test.txt"}' http://localhost:5000/api/new
+curl -H "Content-Type: application/json" \
+     -X POST \
+     -d '{"url":"https://mitchellhuang.net/test.txt"}' \
+     http://localhost:5000/api/new
 ```
 
 Example reponse:
