@@ -100,6 +100,8 @@ Example response:
 
 ## View the result of a job by id
 
+Example GET request:
+
 ```
 curl http://localhost:5000/api/view/1
 ```
