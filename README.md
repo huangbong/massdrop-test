@@ -2,7 +2,9 @@
 
 > Create a job queue whose workers fetch data from a URL and store the results in a database.  The job queue should expose a REST API for adding jobs and checking their status / results.
 
-Here is my implimentation using Python. This app uses Redis and the [rq](http://python-rq.org/) (Redis Queue), Flask, and Requests Python libraries. It stores the job queue objects in Redis and also stores the job results in Redis using the key rq:[id]:result.
+Here is my implimentation using Python.
+
+This app uses Redis and the [rq](http://python-rq.org/) (Redis Queue), Flask, and Requests Python libraries. It stores the job queue objects in Redis and also stores the job results in Redis using the key rq:[id]:result.
 
 ## Dependencies
 
