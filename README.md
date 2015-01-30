@@ -52,7 +52,7 @@ rqworker &
 Start the app:
 
 ```
-python3 app.py
+python app.py
 ```
 
 If everything works out you should see the Flask respond:
