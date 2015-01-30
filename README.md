@@ -33,7 +33,6 @@ Install:
 pip install -r requirements.txt
 
 You will need to use sudo if your python3 install base is in /usr/* or whatever.
-
 ```
 
 ## Running the app
